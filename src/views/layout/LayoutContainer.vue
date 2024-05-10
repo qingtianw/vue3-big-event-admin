@@ -83,7 +83,7 @@ const handleCommand = async (key) => {
     <el-container>
       <el-header>
         <div>
-          小天才程序员：<strong>{{
+          小天才管理员：<strong>{{
             userStore.user.nickname || userStore.user.username
           }}</strong>
         </div>
@@ -116,7 +116,7 @@ const handleCommand = async (key) => {
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-footer>大事件 ©2023 Created by 黑马程序员</el-footer>
+      <el-footer>事件管理系统 ©2024 Created by 小天才</el-footer>
     </el-container>
   </el-container>
 </template>
